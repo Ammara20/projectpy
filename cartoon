@@ -1,0 +1,18 @@
+import turtle
+t = turtle.Turtle()
+t.speed(0)
+t.pensize(8)
+t.penup()
+t.goto(0,-100)
+t.pendown
+
+for i in range(36):
+    t.forward(30)
+    t.left(10)
+
+t.penup()   
+t.goto(-80,90) 
+t.pendown()
+t.forward(100)
+t.left(120)
+t.forward(75)
